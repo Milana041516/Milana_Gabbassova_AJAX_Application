@@ -53,7 +53,7 @@
       })
       .catch(error => {
         console.log(error);
-        errorHere(error);
+        errorHere();
       })
     }
   
@@ -82,7 +82,7 @@
       })
       .catch(error => {
         console.log(error);
-        errorHere(error);
+        errorHere();
       })
       
     }
